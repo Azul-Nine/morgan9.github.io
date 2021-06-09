@@ -1,0 +1,61 @@
+
+
+h1 {
+  color: seagreen;
+  font-size: 55px;
+  background: whitesmoke;
+  font-family: LOVELO;
+}
+
+h2, h3, h4 {
+  font-size: 40px;
+  background: ghostwhite;
+  font-family: LOVELO;
+}
+
+p, ul, ol {
+  font-size: 25px;
+
+}
+
+
+body {
+  background: palegreen;
+  font-family: LOVELO;
+text-align: center;
+}
+
+img {
+  width: 1000px;
+  height:300px;
+  object-fit: cover;
+}
+
+a:hover {
+  color: mediumvioletred;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E2F3DC;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
